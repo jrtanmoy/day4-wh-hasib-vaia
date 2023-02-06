@@ -42,8 +42,9 @@ h1 {
 }
 
 section {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 15px;
+
 }
 
 .section-heading {
@@ -83,4 +84,64 @@ section {
 
 .col:hover {
     box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.example-title {
+    margin-top: 2%;
+    text-align: center;
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 75%;
+    margin: 15px auto;
+}
+
+td,
+th {
+    border: 1px solid black;
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+}
+
+.form-upper {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: start;
+}
+
+.radio-div {
+    display: flex;
+    /* align-items: center; */
+    width: 50%;
+}
+
+.checkbox-div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.padssword-div {
+    display: flex;
+    width: 100%;
+}
+
+form {}
+
+form input {
+    width: 50%;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+footer {
+    margin: 5%;
+    text-align: center;
 }
