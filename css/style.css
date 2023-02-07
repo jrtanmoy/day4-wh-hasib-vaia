@@ -117,6 +117,7 @@ table {
     border-collapse: collapse;
     width: 75%;
     margin: 15px auto;
+
 }
 
 td,
@@ -128,11 +129,16 @@ th {
 }
 
 
+/* table :hover {
+    box-shadow: 4px 5px 8px 4px rgba(138, 91, 91, 0.6);
+} */
+
 
 form {
     margin: auto;
     max-width: 40%;
-    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    background: #031321;
     padding: 70px;
     border-radius: 10px;
 }
@@ -179,6 +185,101 @@ form {
 .checkbox-style li {
     display: inline-block;
     padding-left: 22px;
+}
+
+.button-div {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .button-style {
+    /* background-color: seagreen; */
+/* margin-top: 30px;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 10px;
+} */
+button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #2196f3;
+    background: #031321;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+
+button:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s;
+}
+
+button span {
+    position: absolute;
+    display: block;
+}
+
+button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);
+}
+
+button:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+}
+
+button:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2196f3);
+}
+
+button:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #2196f3);
+}
+
+button:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
 }
 
 footer {
