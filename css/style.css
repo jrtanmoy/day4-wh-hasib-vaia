@@ -76,7 +76,7 @@ section {
 
 .tag-area {
     margin-top: 1.5%;
-    padding: 20px;
+    padding: 40px;
 
 }
 
@@ -106,8 +106,12 @@ section {
     box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
-.example-title {
+.example-sec {
     margin-top: 4%;
+}
+
+.example-title {
+    margin-top: 2%;
     margin-bottom: 2%;
     text-align: center;
 }
@@ -163,12 +167,14 @@ form {
 }
 
 .radio-style span {
-    margin-right: 8%;
+    min-width: 120px;
+    display: inline-block;
 }
 
 .radio-style li {
     display: inline-block;
-    padding-left: 14px;
+    margin-right: 20px;
+    /* padding-left: 14px; */
     /* margin-left: 10%; */
     /* display: flex; */
 }
@@ -178,13 +184,14 @@ form {
 }
 
 .checkbox-style span {
-    margin-right: 2%;
+    min-width: 120px;
+    display: inline-block;
 
 }
 
 .checkbox-style li {
     display: inline-block;
-    padding-left: 22px;
+    margin-right: 20px;
 }
 
 .button-div {
